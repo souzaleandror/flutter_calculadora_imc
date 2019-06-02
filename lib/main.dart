@@ -7,11 +7,14 @@ void main() {
 }
 
 class Home extends StatefulWidget {
+
   @override
   _HomeState createState() => _HomeState();
+
 }
 
 class _HomeState extends State<Home> {
+
   TextEditingController weightController = TextEditingController();
   TextEditingController heightController = TextEditingController();
   String _info = "Informe seus dados";
